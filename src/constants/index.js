@@ -66,7 +66,7 @@ export const PROJECTS = [
     image: project2,
     link: "https://github.com/harshaak2/rowling-gpt",
     description:
-      'Implemented and fine-tuned a Generative Pretrained Transformer(GPT) model using PyTorch based on the manuscript "Attention is All You Need" by Vaswani et al. The model was trained on the “Harry Potter and the Sorcerers Stone” by JK Rowling. The model was able to generate text when a context was passed into the model',
+      'Implemented and fine-tuned a Generative Pretrained Transformer(GPT) model with 7.16M parameters using PyTorch based on the manuscript "Attention is All You Need" by Vaswani et al. The model was trained on the “Harry Potter and the Sorcerers Stone” by JK Rowling. The model was able to generate text when a context was passed into the model',
     technologies: ["Python", "PyTorch"],
   },
   {
@@ -74,7 +74,7 @@ export const PROJECTS = [
     image: project3,
     link: "https://github.com/harshaak2/LlamaQA",
     description:
-      "Built a Retrieval Augmented Generation(RAG) model which answers questions based on a PDF file. The model uses a retriever to find the most relevant paragraphs from the PDF file which acts as a knowledge base for the model. The model then generates an answer based on the context of the question and the retrieved paragraphs from the vector store. The model uses Llama2 as the generational model.",
+      "Built a Retrieval Augmented Generation(RAG) model which answers questions based on a PDF file. The model uses a retriever to find the most relevant paragraphs from the PDF file which acts as a knowledge base for the model. The model then generates an answer based on the context of the question and the retrieved paragraphs from the vector store. The model uses Llama3 with 8B parameters as the generational model.",
     technologies: ["Python", "Langchain", "Llama2"],
   },
   {
