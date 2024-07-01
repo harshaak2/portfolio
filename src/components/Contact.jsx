@@ -38,7 +38,7 @@ export default function Contact() {
           {CONTACT.email}
         </a>
         <a 
-          href="https://drive.google.com/file/d/1NIL2dScxfc5k8ag7Db32DmfXVNUuridk/view?usp=sharing"
+          href="https://drive.google.com/file/d/1FOK1U3xz5BMaEyZL30VPresIG8uj3_EZ/view?usp=sharing"
           className="underline cursor-pointer my-2"
           target="_blank"
         >
