@@ -54,9 +54,13 @@ export default function Projects() {
               <div className="flex gap-4 items-center mb-2">
                 <h6 className="font-semibold">{project.title}</h6>
                 <div className="flex gap-2">
-                  <FaGithub className="text-xl" />
-                  <span>|</span>
-                  <RiExternalLinkLine className="text-xl" />
+                  <a href={project.link} target="_blank"><FaGithub className="text-xl" /></a>
+                  {project.hosted && (
+                    <div className="flex gap-2">
+                      <span>|</span>
+                      <RiExternalLinkLine className="text-xl" />
+                    </div>
+                  )}
                 </div>
               </div>
               <p className="mb-6 text-neutral-400">{project.description}</p>

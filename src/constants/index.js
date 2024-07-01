@@ -14,7 +14,7 @@ export const EXPERIENCES = [
     role: "Intern",
     company: "Satish Dhawan Space Centre, ISRO, Sriharikota",
     description: `Worked at the Range Operations Unit of Satish Dhawan Space Center (SDSC) on a project to predict statistical sub-parameters of temperature and humidity using a Long Short Term Memory (LSTM) model. The Range Operations Unit is responsible for launch coordination, tracking and telemetry, communication systems, flight safety analysis, and post-launch analysis.`,
-    technologies: ["Python", "Tensorflow"],
+    technologies: ["Python"],
   },
 ];
 
@@ -56,6 +56,8 @@ export const PROJECTS = [
   {
     title: "StorySphere",
     image: project1,
+    link: "https://github.com/harshaak2/blog-website",
+    hosted: "https://github.com/harshaak2/blog-website",
     description:
       "A fullstack blog website where users can read blog posts on various topics. The admin has the privilege of posting content, managing posts and comments with an admin dashboard. The UI has both light and dark modes, and is very responsive for any device. The backend is built with NodeJS, ExpressJS, and MongoDB, and the frontend is built with ReactJS and TailwindCSS. The application uses Redux for state management, Redis for caching, and JWT for authentication.",
     technologies: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "TailwindCSS", "Redux", "Redis", "JWT"],
@@ -63,6 +65,7 @@ export const PROJECTS = [
   {
     title: "RowlingGPT",
     image: project2,
+    link: "",
     description:
       'Implemented and fine-tuned a Generative Pretrained Transformer(GPT) model using PyTorch based on the manuscript "Attention is All You Need" by Vaswani et al. The model was trained on the “Harry Potter and the Sorcerers Stone” by JK Rowling. The model was able to generate text when a context was passed into the model',
     technologies: ["Python", "PyTorch"],
@@ -70,6 +73,7 @@ export const PROJECTS = [
   {
     title: "LlamaQA",
     image: project3,
+    link: "",
     description:
       "Built a Retrieval Augmented Generation(RAG) model which answers questions based on a PDF file. The model uses a retriever to find the most relevant paragraphs from the PDF file which acts as a knowledge base for the model. The model then generates an answer based on the context of the question and the retrieved paragraphs from the vector store. The model uses Llama2 as the generational model.",
     technologies: ["Python", "Langchain", "Llama2"],
@@ -77,6 +81,7 @@ export const PROJECTS = [
   {
     title: "VRent",
     image: project4,
+    link: "",
     description:
       "A command line vechicle rental application developed using Java as a frontend and MySQL database in the backend, and used JDBC for connecting Java frontend with the backend database. A user can register and rent a vehicle for a date and also can cancel the booking.",
     technologies: ["Java", "MySQL", "JDBC"],
@@ -84,6 +89,7 @@ export const PROJECTS = [
   {
     title: "BizMaven",
     image: project5,
+    link: "",
     description:
       "A MERN stack business listing website where businesses can register and list their services, along with an admin privilege to overlook both users and vendors. Users can search for businesses based on location and category. The backend is built with NodeJS, ExpressJS, and MongoDB, and the frontend is built with ReactJS. The application uses Redux for state management, Redis for caching, and JWT for authentication, and indexed search using MongoDB.",
     technologies: ["MongoDB", "ExpressJS", "NodeJS", "ReactJS", "Redux", "Redis", "JWT"],

@@ -162,14 +162,14 @@ export default function Technologies() {
         >
           <img src={mysqlIcon} className="text-5xl w-16 h-16" alt="C" />
         </motion.div>
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <img src={postgresqlIcon} className="text-5xl w-16 h-16" alt="C" />
-        </motion.div>
+        </motion.div> */}
         <motion.div
           variants={iconVariants(1.75)}
           initial="initial"
@@ -178,14 +178,14 @@ export default function Technologies() {
         >
           <img src={redisIcon} className="text-5xl w-16 h-16" alt="C" />
         </motion.div>
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(1.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <img src={dockerIcon} className="text-5xl w-16 h-16" alt="C" />
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </div>
   );
