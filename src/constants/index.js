@@ -75,7 +75,7 @@ export const PROJECTS = [
     link: "https://github.com/harshaak2/LlamaQA",
     description:
       "Built a Retrieval Augmented Generation(RAG) model which answers questions based on a PDF file. The model uses a retriever to find the most relevant paragraphs from the PDF file which acts as a knowledge base for the model. The model then generates an answer based on the context of the question and the retrieved paragraphs from the vector store. The model uses Llama3 with 8B parameters as the generational model.",
-    technologies: ["Python", "Langchain", "Llama2"],
+    technologies: ["Python", "Langchain", "Llama3"],
   },
   {
     title: "VRent",
