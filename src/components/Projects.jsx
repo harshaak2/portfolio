@@ -15,7 +15,7 @@ export default function Projects() {
     setShowModal(true);
   };
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-neutral-900 pb-4">
       <motion.h2
         initial={{ opacity: 0, y: -100 }}
         whileInView={{ opacity: 1, y: 0 }}
