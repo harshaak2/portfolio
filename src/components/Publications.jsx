@@ -34,7 +34,7 @@ export default function Experience() {
               transition={{ duration: 1 }}
               className="max-w-xl lg:w-3/4 w-full"
             >
-              <h6 className="mb-2 font-semibold text-lg italic">
+              <h6 className="mb-2 font-semibold text-lg italic text-purple-100">
                 {publication.title}
               </h6>
               <p className="mb-4 text-neutral-400">{publication.description}</p>
