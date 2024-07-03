@@ -52,6 +52,14 @@ export const RESPONSIBILITIES = [
   
 ];
 
+export const PUBLICATIONS = [
+  {
+    title: "2DP-FHS: 2D Pareto Optimized Fog Head Selection for Multiple EEG Healthcare Data Analysis and Computations",
+    conference: "8th International Conference on Advances in Computing and Data Sciences (ICACDS-2024), Paris",
+    description: "Published a research paper on fog computing, which proposes a 2D Pareto optimized fog head selection algorithm for multiple EEG healthcare data analysis and computations. Manuscript to be published in Springer's CCIS.",
+  }
+]
+
 export const PROJECTS = [
   {
     title: "StorySphere",
